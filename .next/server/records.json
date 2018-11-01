@@ -1,0 +1,55 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"styled-components\"": 1,
+      "external \"moment\"": 2,
+      "external \"next/document\"": 3,
+      "external \"next/head\"": 4,
+      "external \"react-select\"": 5,
+      "multi ./pages/_document.js": 6,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 7,
+      "multi ./pages/index.js": 8,
+      "multi node_modules/next/dist/pages/_app.js": 9,
+      "node_modules/next/dist/pages/_app.js": 10,
+      "external \"next/app\"": 11,
+      "multi node_modules/next/dist/pages/_error.js": 12,
+      "node_modules/next/dist/pages/_error.js": 13,
+      "external \"next/error\"": 14,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 0161ae749d799200c736d7bc9b3eacdc": 15
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/rtNRh_uJGNETIv78nS4ht/pages/_document.js": 0,
+      "static/rtNRh_uJGNETIv78nS4ht/pages/index.js": 1,
+      "static/rtNRh_uJGNETIv78nS4ht/pages/_app.js": 2,
+      "static/rtNRh_uJGNETIv78nS4ht/pages/_error.js": 3
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}
