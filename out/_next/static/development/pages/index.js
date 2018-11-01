@@ -35535,7 +35535,7 @@ function (_Component) {
   _createClass(Index, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      var start = moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-10-31');
+      var start = moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-11-01');
       var end = moment__WEBPACK_IMPORTED_MODULE_4___default()();
       var days = [];
       var day = start;
@@ -35548,7 +35548,7 @@ function (_Component) {
         day = day.clone().add(1, 'd');
       }
 
-      var dayValue = moment__WEBPACK_IMPORTED_MODULE_4___default.a.duration(end.diff(moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-10-31')));
+      var dayValue = moment__WEBPACK_IMPORTED_MODULE_4___default.a.duration(end.diff(moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-11-01')));
       var dayDiff = dayValue._data.days;
       console.log(dayValue._data.days);
       console.log(days);
@@ -35563,7 +35563,7 @@ function (_Component) {
       console.log(selectedOption);
       var selectedDay = selectedOption.value;
       var selectedMoment = moment__WEBPACK_IMPORTED_MODULE_4___default()(selectedDay);
-      var dayValue = moment__WEBPACK_IMPORTED_MODULE_4___default.a.duration(selectedMoment.diff(moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-10-31')));
+      var dayValue = moment__WEBPACK_IMPORTED_MODULE_4___default.a.duration(selectedMoment.diff(moment__WEBPACK_IMPORTED_MODULE_4___default()('2018-11-01')));
       var dayDiff = dayValue._data.days;
       this.setState({
         currentDay: selectedOption,
