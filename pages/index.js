@@ -113,7 +113,7 @@ const AbsolutePicture = styled.div`
     & .pictureWrapper {
       margin-bottom: 0;
       margin-top: 0;
-    }  
+    }
   }
 `;
 
@@ -160,7 +160,7 @@ class Index extends Component {
   }
 
   componentDidMount() {
-    let start = moment('2018-10-31')
+    let start = moment('2018-11-01')
     let end = moment()
     var days = [];
     var day = start;
@@ -169,7 +169,7 @@ class Index extends Component {
         days.push({label: day.format('MMMM Do'), value: day.toDate()});
         day = day.clone().add(1, 'd');
     }
-    let dayValue = moment.duration(end.diff(moment('2018-10-31')))
+    let dayValue = moment.duration(end.diff(moment('2018-11-01')))
     const dayDiff = dayValue._data.days
     console.log(dayValue._data.days);
     console.log(days);
@@ -184,7 +184,7 @@ class Index extends Component {
     console.log(selectedOption);
     let selectedDay = selectedOption.value
     let selectedMoment = moment(selectedDay)
-    let dayValue = moment.duration(selectedMoment.diff(moment('2018-10-31')))
+    let dayValue = moment.duration(selectedMoment.diff(moment('2018-11-01')))
     const dayDiff = dayValue._data.days
     this.setState({
       currentDay: selectedOption,
