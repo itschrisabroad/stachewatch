@@ -447,7 +447,7 @@
       "publicPath": "static/chunks/commons.3524cea27af0c5145cb3.js"
     }
   ],
-  "../../modules/_wks-ext": [
+  "./_wks-ext": [
     {
       "id": 61,
       "name": "./node_modules/core-js/library/modules/_wks-ext.js",
@@ -607,7 +607,7 @@
       "publicPath": "static/chunks/commons.3524cea27af0c5145cb3.js"
     }
   ],
-  "../core-js/object/assign": [
+  "@babel/runtime-corejs2/core-js/object/assign": [
     {
       "id": 81,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js",
@@ -615,7 +615,7 @@
       "publicPath": "static/chunks/commons.3524cea27af0c5145cb3.js"
     }
   ],
-  "./assertThisInitialized": [
+  "@babel/runtime-corejs2/helpers/assertThisInitialized": [
     {
       "id": 82,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js",
